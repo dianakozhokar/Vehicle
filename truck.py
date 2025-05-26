@@ -6,7 +6,7 @@ class Truck(Vehicle):
         self.cargo_capacity = cargo_capacity
         self.towing_capacity = towing_capacity
 
-    def start_engine(self):  # Обов'язково цей метод!
+    def start_engine(self):
         print("The truck's engine is starting...")
 
     def haul(self):

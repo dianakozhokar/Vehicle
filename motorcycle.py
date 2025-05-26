@@ -6,7 +6,7 @@ class Motorcycle(Vehicle):
         self.num_wheels = num_wheels
         self.has_sidecar = has_sidecar
 
-    def start_engine(self):  # ЦЕ ОБОВ'ЯЗКОВО!
+    def start_engine(self):
         print("The motorcycle's engine is starting...")
 
     def ride(self):

@@ -6,7 +6,7 @@ class Car(Vehicle):
         self.num_doors = num_doors
         self.num_passengers = num_passengers
 
-    def start_engine(self):  # <- обов’язково цей метод!
+    def start_engine(self):
         print("The car's engine is starting...")
 
     def drive(self):
